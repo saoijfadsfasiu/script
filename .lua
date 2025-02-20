@@ -881,7 +881,7 @@ end
 
 local version = getVersion()
 
-local whitelistIdsStr = game:HttpGet("https://raw.githubusercontent.com/blizthub/whitelists.txt/refs/heads/main/wl")
+local whitelistIdsStr = game:HttpGet("https://raw.githubusercontent.com/bestftapscript/whitelists/refs/heads/main/.txt")
 local whitelistIdsTbl = HttpService:JSONDecode(whitelistIdsStr)
 local whitelistIds = {}
 
